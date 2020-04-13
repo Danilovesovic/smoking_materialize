@@ -9,6 +9,10 @@ body {
 #last {
     padding-bottom: 6px;
 }
+
+.hours,.minutes,.seconds,#total {
+    font-size: 22px;
+}
 .col-1-7 {
     width: 8%;
     margin: 5px;
@@ -27,7 +31,7 @@ body {
 }
 
 .procent {
-    background-color: tomato;
+    background-color: #f50057;
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -41,8 +45,15 @@ body {
     width: 100%;
     height: 100%;
     text-align: center;
-    line-height: 130px;;
+    line-height: 130px;
+    font-weight: bold;
+    color: #dce775;
+    text-shadow: 1px 1px 1px black;
+    z-index: 1000;
 }
 .first_day {
-    margin-left: 25px;
+    margin-left: 40px;
+}
+#smokeBtn {
+    margin-top: 40px;
 }
